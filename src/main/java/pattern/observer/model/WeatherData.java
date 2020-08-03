@@ -1,6 +1,7 @@
 package pattern.observer.model;
 
 import java.util.ArrayList;
+import java.util.Observable;
 import pattern.observer.mapper.Observer;
 import pattern.observer.mapper.Subject;
 
@@ -8,11 +9,15 @@ import pattern.observer.mapper.Subject;
  * @author NNroc
  * @date 2020/8/3 11:04
  */
-public class WeatherData implements Subject {
+public class WeatherData extends Observable {
     private ArrayList observers;
     private double temperature;
     private double humidity;
     private double pressure;
+
+    public WeatherData() {
+        observers = new ArrayList();
+    }
 
     public void registerObserver(Observer o) {
         observers.add(o);
@@ -30,10 +35,6 @@ public class WeatherData implements Subject {
             Observer observer = (Observer) observers.get(i);
             observer.update(temperature, humidity, pressure);
         }
-    }
-
-    public WeatherData() {
-        observers = new ArrayList();
     }
 
     public void measurementsChanged() {
