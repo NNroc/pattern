@@ -1,7 +1,7 @@
 package pattern.strategy.model;
 
-import pattern.strategy.mapper.impl.FlyWithWings;
-import pattern.strategy.mapper.impl.Quack;
+import pattern.strategy.behavior.impl.FlyWithWings;
+import pattern.strategy.behavior.impl.Quack;
 
 /**
  * @author NNroc

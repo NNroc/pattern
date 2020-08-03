@@ -1,4 +1,4 @@
-package pattern.strategy.mapper;
+package pattern.strategy.behavior;
 
 /**
  * @author NNroc

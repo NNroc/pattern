@@ -1,6 +1,6 @@
 package pattern.strategy;
 
-import pattern.strategy.mapper.impl.FlyRocketPowered;
+import pattern.strategy.behavior.impl.FlyRocketPowered;
 import pattern.strategy.model.Duck;
 import pattern.strategy.model.MallardDuck;
 import pattern.strategy.model.ModelDuck;

@@ -1,7 +1,7 @@
 package pattern.strategy.model;
 
-import pattern.strategy.mapper.FlyBehavior;
-import pattern.strategy.mapper.QuackBehavior;
+import pattern.strategy.behavior.FlyBehavior;
+import pattern.strategy.behavior.QuackBehavior;
 
 /**
  * @author NNroc

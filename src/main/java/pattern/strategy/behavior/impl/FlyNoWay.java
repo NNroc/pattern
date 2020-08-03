@@ -1,6 +1,6 @@
-package pattern.strategy.mapper.impl;
+package pattern.strategy.behavior.impl;
 
-import pattern.strategy.mapper.FlyBehavior;
+import pattern.strategy.behavior.FlyBehavior;
 
 /**
  * @author NNroc
