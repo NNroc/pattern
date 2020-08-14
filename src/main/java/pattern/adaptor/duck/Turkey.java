@@ -1,4 +1,4 @@
-package pattern.adaptor.example;
+package pattern.adaptor.duck;
 
 /**
  * 火鸡
