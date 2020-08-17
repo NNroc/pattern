@@ -40,7 +40,9 @@ public class MenuTestDrive {
 
         Waitress waitress = new Waitress(allMenus);
 
+        // 打印所有菜单
         waitress.printMenu();
+        // 打印素食菜单
         waitress.printVegetarianMenu();
     }
 }

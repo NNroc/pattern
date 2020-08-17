@@ -3,6 +3,8 @@ package pattern.composite;
 import java.util.Iterator;
 
 /**
+ * 菜品情况
+ *
  * @author NNroc
  * @date 2020/8/16 18:35
  */
