@@ -7,18 +7,20 @@ import java.util.Stack;
  * @author NNroc
  * @date 2020/8/16 21:51
  */
-public class CompositeIterator implements Iterator<MenuComponent> {
-    Stack<Iterator<MenuComponent>> stack = new Stack<Iterator<MenuComponent>>();
+public class CompositeIterator implements Iterator {
+    Stack stack = new Stack();
 
     public CompositeIterator(Iterator<MenuComponent> iterator) {
         stack.push(iterator);
     }
 
-    public MenuComponent next() {
+    public Object next() {
         if (hasNext()) {
-            Iterator<MenuComponent> iterator = stack.peek();
-            MenuComponent component = iterator.next();
-            stack.push(component.createIterator());
+            Iterator iterator = (Iterator) stack.peek();
+            MenuComponent component = (MenuComponent) iterator.next();
+            if (component instanceof Menu) {
+                stack.push(component.createIterator());
+            }
             return component;
         } else {
             return null;
@@ -29,7 +31,7 @@ public class CompositeIterator implements Iterator<MenuComponent> {
         if (stack.empty()) {
             return false;
         } else {
-            Iterator<MenuComponent> iterator = stack.peek();
+            Iterator iterator = (Iterator) stack.peek();
             if (!iterator.hasNext()) {
                 stack.pop();
                 return hasNext();

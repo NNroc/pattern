@@ -7,7 +7,6 @@ import java.util.Iterator;
  * @date 2020/8/16 18:32
  */
 public abstract class MenuComponent {
-
     public void add(MenuComponent menuComponent) {
         throw new UnsupportedOperationException();
     }

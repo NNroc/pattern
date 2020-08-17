@@ -1,5 +1,7 @@
 package pattern.composite;
 
+import java.util.Iterator;
+
 /**
  * @author NNroc
  * @date 2020/8/16 18:35
@@ -34,6 +36,10 @@ public class MenuItem extends MenuComponent {
 
     public boolean isVegetarian() {
         return vegetarian;
+    }
+
+    public Iterator createIterator() {
+        return new NullIterator();
     }
 
     public void print() {

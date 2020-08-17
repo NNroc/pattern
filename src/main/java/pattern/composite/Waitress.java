@@ -18,11 +18,11 @@ public class Waitress {
     }
 
     public void printVegetarianMenu() {
-        Iterator<MenuComponent> iterator = allMenus.createIterator();
+        Iterator iterator = allMenus.createIterator();
 
         System.out.println("\nVEGETARIAN MENU\n----");
         while (iterator.hasNext()) {
-            MenuComponent menuComponent = iterator.next();
+            MenuComponent menuComponent = (MenuComponent) iterator.next();
             try {
                 if (menuComponent.isVegetarian()) {
                     menuComponent.print();
