@@ -43,7 +43,6 @@ public class Menu extends MenuComponent {
         return new CompositeIterator(menuComponents.iterator());
     }
 
-
     public void print() {
         System.out.print("\n" + getName());
         System.out.println(", " + getDescription());
