@@ -1,7 +1,7 @@
 package pattern.compound.duck.model;
 
 /**
- * 观察者接口
+ * 观察者接口，鸭鸣观察
  *
  * @author NNroc
  * @date 2020/8/19 16:56

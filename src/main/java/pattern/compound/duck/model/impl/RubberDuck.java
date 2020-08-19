@@ -5,6 +5,7 @@ import pattern.compound.duck.model.Quackable;
 
 /**
  * 橡皮鸭
+ *
  * @author NNroc
  * @date 2020/8/19 12:20
  */

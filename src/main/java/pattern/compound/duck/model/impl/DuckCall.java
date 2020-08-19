@@ -4,8 +4,8 @@ import pattern.compound.duck.model.Observer;
 import pattern.compound.duck.model.Quackable;
 
 /**
- *
  * 鸭鸣器
+ *
  * @author NNroc
  * @date 2020/8/19 12:18
  */
