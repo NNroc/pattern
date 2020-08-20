@@ -1,4 +1,4 @@
-package pattern.compound.duck.model;
+package pattern.compound.model;
 
 /**
  * 鸭子接口

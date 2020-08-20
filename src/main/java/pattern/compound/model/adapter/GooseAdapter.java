@@ -1,8 +1,8 @@
-package pattern.compound.duck.model.adapter;
+package pattern.compound.model.adapter;
 
-import pattern.compound.duck.model.Observer;
-import pattern.compound.duck.model.Quackable;
-import pattern.compound.duck.model.impl.Observable;
+import pattern.compound.model.Observer;
+import pattern.compound.model.Quackable;
+import pattern.compound.model.impl.Observable;
 
 /**
  * 鹅适配成鸭子

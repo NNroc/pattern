@@ -1,13 +1,13 @@
-package pattern.compound.duck;
+package pattern.compound;
 
-import pattern.compound.duck.facotry.AbstractDuckFactory;
-import pattern.compound.duck.facotry.CountingDuckFactory;
-import pattern.compound.duck.model.Flock;
-import pattern.compound.duck.model.Quackable;
-import pattern.compound.duck.model.adapter.Goose;
-import pattern.compound.duck.model.adapter.GooseAdapter;
-import pattern.compound.duck.decorator.QuackCounter;
-import pattern.compound.duck.model.impl.Quackologist;
+import pattern.compound.decorator.QuackCounter;
+import pattern.compound.facotry.AbstractDuckFactory;
+import pattern.compound.facotry.CountingDuckFactory;
+import pattern.compound.model.Flock;
+import pattern.compound.model.Quackable;
+import pattern.compound.model.adapter.Goose;
+import pattern.compound.model.adapter.GooseAdapter;
+import pattern.compound.model.impl.Quackologist;
 
 /**
  * 鸭子模拟器

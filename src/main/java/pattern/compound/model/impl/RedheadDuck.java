@@ -1,18 +1,18 @@
-package pattern.compound.duck.model.impl;
+package pattern.compound.model.impl;
 
-import pattern.compound.duck.model.Observer;
-import pattern.compound.duck.model.Quackable;
+import pattern.compound.model.Observer;
+import pattern.compound.model.Quackable;
 
 /**
- * 绿头鸭
+ * 红头鸭
  *
  * @author NNroc
- * @date 2020/8/19 12:21
+ * @date 2020/8/19 12:22
  */
-public class MallardDuck implements Quackable {
+public class RedheadDuck implements Quackable {
     Observable observable;
 
-    public MallardDuck() {
+    public RedheadDuck() {
         observable = new Observable(this);
     }
 

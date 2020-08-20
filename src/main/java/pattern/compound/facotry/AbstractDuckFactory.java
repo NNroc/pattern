@@ -1,6 +1,6 @@
-package pattern.compound.duck.facotry;
+package pattern.compound.facotry;
 
-import pattern.compound.duck.model.Quackable;
+import pattern.compound.model.Quackable;
 
 /**
  * @author NNroc

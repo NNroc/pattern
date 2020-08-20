@@ -1,7 +1,7 @@
-package pattern.compound.duck.model.impl;
+package pattern.compound.model.impl;
 
-import pattern.compound.duck.model.Observer;
-import pattern.compound.duck.model.QuackObservable;
+import pattern.compound.model.Observer;
+import pattern.compound.model.QuackObservable;
 
 /**
  * 观察者，哪只鸭子叫了

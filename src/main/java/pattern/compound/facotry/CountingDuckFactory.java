@@ -1,11 +1,11 @@
-package pattern.compound.duck.facotry;
+package pattern.compound.facotry;
 
-import pattern.compound.duck.decorator.QuackCounter;
-import pattern.compound.duck.model.Quackable;
-import pattern.compound.duck.model.impl.DuckCall;
-import pattern.compound.duck.model.impl.MallardDuck;
-import pattern.compound.duck.model.impl.RedheadDuck;
-import pattern.compound.duck.model.impl.RubberDuck;
+import pattern.compound.decorator.QuackCounter;
+import pattern.compound.model.Quackable;
+import pattern.compound.model.impl.DuckCall;
+import pattern.compound.model.impl.MallardDuck;
+import pattern.compound.model.impl.RedheadDuck;
+import pattern.compound.model.impl.RubberDuck;
 
 /**
  * @author NNroc

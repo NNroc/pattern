@@ -1,4 +1,4 @@
-package pattern.compound.duck.model;
+package pattern.compound.model;
 
 import java.util.ArrayList;
 import java.util.Iterator;

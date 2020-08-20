@@ -1,4 +1,4 @@
-package pattern.compound.duck.model.adapter;
+package pattern.compound.model.adapter;
 
 /**
  * 鹅

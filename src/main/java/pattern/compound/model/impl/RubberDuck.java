@@ -1,23 +1,23 @@
-package pattern.compound.duck.model.impl;
+package pattern.compound.model.impl;
 
-import pattern.compound.duck.model.Observer;
-import pattern.compound.duck.model.Quackable;
+import pattern.compound.model.Observer;
+import pattern.compound.model.Quackable;
 
 /**
- * 红头鸭
+ * 橡皮鸭
  *
  * @author NNroc
- * @date 2020/8/19 12:22
+ * @date 2020/8/19 12:20
  */
-public class RedheadDuck implements Quackable {
+public class RubberDuck implements Quackable {
     Observable observable;
 
-    public RedheadDuck() {
+    public RubberDuck() {
         observable = new Observable(this);
     }
 
     public void quack() {
-        System.out.println("quack");
+        System.out.println("squeak");
         notifyObservers();
     }
 

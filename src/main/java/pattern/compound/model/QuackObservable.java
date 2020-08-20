@@ -1,4 +1,4 @@
-package pattern.compound.duck.model;
+package pattern.compound.model;
 
 /**
  * 观察者接口，鸭鸣观察

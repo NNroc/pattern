@@ -1,4 +1,4 @@
-package pattern.compound.duck.model;
+package pattern.compound.model;
 
 /**
  * 观察者接口（可以看到，观察者中update需要一个Quackable对象，这就是为什么需要QuackObservableAbstract抽象类的原因）

@@ -1,23 +1,23 @@
-package pattern.compound.duck.model.impl;
+package pattern.compound.model.impl;
 
-import pattern.compound.duck.model.Observer;
-import pattern.compound.duck.model.Quackable;
+import pattern.compound.model.Observer;
+import pattern.compound.model.Quackable;
 
 /**
- * 鸭鸣器
+ * 绿头鸭
  *
  * @author NNroc
- * @date 2020/8/19 12:18
+ * @date 2020/8/19 12:21
  */
-public class DuckCall implements Quackable {
+public class MallardDuck implements Quackable {
     Observable observable;
 
-    public DuckCall() {
+    public MallardDuck() {
         observable = new Observable(this);
     }
 
     public void quack() {
-        System.out.println("Kwak");
+        System.out.println("quack");
         notifyObservers();
     }
 

@@ -1,7 +1,7 @@
-package pattern.compound.duck.decorator;
+package pattern.compound.decorator;
 
-import pattern.compound.duck.model.Observer;
-import pattern.compound.duck.model.Quackable;
+import pattern.compound.model.Observer;
+import pattern.compound.model.Quackable;
 
 /**
  * 装饰者 记录叫声次数

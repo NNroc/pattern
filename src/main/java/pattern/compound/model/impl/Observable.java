@@ -1,9 +1,9 @@
-package pattern.compound.duck.model.impl;
+package pattern.compound.model.impl;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import pattern.compound.duck.model.Observer;
-import pattern.compound.duck.model.QuackObservable;
+import pattern.compound.model.Observer;
+import pattern.compound.model.QuackObservable;
 
 /**
  * @author NNroc
