@@ -11,11 +11,19 @@ import pattern.factory.model.pizza.Pizza;
  */
 public class PizzaTestDrive {
     public static void main(String[] args) {
+        // 拥有两个披萨店：ny 和 chicago
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();
+        // 分别准备披萨
+        // ny
         Pizza pizza = nyStore.orderPizza("cheese");
-        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+        System.out.println("ny 披萨店提供了一个 " + pizza.getName() + "\n");
+        pizza = nyStore.orderPizza("clam");
+        System.out.println("ny 披萨店提供了一个 " + pizza.getName() + "\n");
+        // chicago
         pizza = chicagoStore.orderPizza("cheese");
-        System.out.println("Joel ordered a " + pizza.getName() + "\n");
+        System.out.println("chicago 披萨店提供了一个 " + pizza.getName() + "\n");
+        pizza = chicagoStore.orderPizza("veggie");
+        System.out.println("chicago 披萨店提供了一个 " + pizza.getName() + "\n");
     }
 }
