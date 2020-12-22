@@ -8,6 +8,7 @@ import pattern.factory.model.pizza.Pizza;
  * @date 2020/8/7 19:10
  */
 public class ChicagoPizzaStore extends PizzaStore {
+    @Override
     Pizza createPizza(String item) {
         if (item.equals("cheese")) {
             return new ChicagoStyleCheesePizza();
