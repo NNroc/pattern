@@ -3,6 +3,7 @@ package pattern.factory;
 import pattern.factory.model.factory.ChicagoPizzaStore;
 import pattern.factory.model.factory.NYPizzaStore;
 import pattern.factory.model.factory.PizzaStore;
+import pattern.factory.model.factory.SimplePizzaFactory;
 import pattern.factory.model.pizza.Pizza;
 
 /**
@@ -11,6 +12,7 @@ import pattern.factory.model.pizza.Pizza;
  */
 public class PizzaTestDrive {
     public static void main(String[] args) {
+        // 抽象工厂模式
         // 拥有两个披萨店：ny 和 chicago
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();

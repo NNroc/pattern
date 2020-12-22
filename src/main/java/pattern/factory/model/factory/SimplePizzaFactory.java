@@ -1,6 +1,9 @@
-package pattern.factory.model.pizza;
+package pattern.factory.model.factory;
 
+import pattern.factory.model.pizza.CheesePizza;
+import pattern.factory.model.pizza.ClamPizza;
 import pattern.factory.model.pizza.Pizza;
+import pattern.factory.model.pizza.VeggiePizza;
 
 /**
  * @author NNroc
